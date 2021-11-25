@@ -35,10 +35,10 @@ The completed application should meet the following criteria:
 
 ```
 ### Product Preview for desktop
-![This is the Product Preview Img for desktop]()
+![This is the Product Preview Img for desktop](Images/01-app-desktop.png)
 
 ### Product Preview for tablet
-![This is the Product Preview Img for tablet]()
+![This is the Product Preview Img for tablet](Images/02-app-tablet.png)
 
 ### Product Preview for mobile
-![This is the Product Preview Img for mobile]()
+![This is the Product Preview Img for mobile](Images/03-app-mobile.png)

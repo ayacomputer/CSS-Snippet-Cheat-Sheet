@@ -1,0 +1,66 @@
+:root {
+    --blackBackground: black;
+    --borderColor: White;
+    --borderShadow: 10px 10px 10px hotPink;
+    --sectionBorder: dotted 1px var(--borderColor);
+
+}
+
+
+body {
+    color: white;
+    background-color: var(--blackBackground);
+    
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+h2 {
+    border: solid 1px white; 
+    position: absolute;
+    top:5px;
+
+}
+
+
+.container {
+    width: 33%;
+    height: auto;
+
+    
+    
+   }
+
+.contentBox {
+    margin:3px;
+    border: var(--sectionBorder);
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .container {
+        width: 49%;
+        height: auto;
+        border: var(--sectionBorder);
+        
+       }
+         
+}
+
+
+
+
+@media screen and (max-width:400px) {
+    
+    .container {
+        width: 100%;
+        height: auto;
+        border: var(--sectionBorder);
+        
+       }
+         
+}
