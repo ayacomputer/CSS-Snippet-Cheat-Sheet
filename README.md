@@ -34,6 +34,9 @@ The completed application should meet the following criteria:
 * The app needs to be a responsive. 
 
 ```
+Link: 
+ https://ayacomputer.github.io/CSS-Snippet-Cheat-Sheet/
+ 
 ### Product Preview for desktop
 ![This is the Product Preview Img for desktop](Images/01-app-desktop.png)
 
