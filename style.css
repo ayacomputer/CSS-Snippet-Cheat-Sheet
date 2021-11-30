@@ -49,10 +49,10 @@ h1 {
 }
 
 .container {
-  margin: auto 0;
   width: 33%;
   display: flex;
 }
+
 
 .card {
     margin: 3rem 2rem;
@@ -61,11 +61,12 @@ h1 {
     
 }
 
-
 .contents p {
     margin-bottom: 2rem;
     text-align: center;
+    flex-grow: 1;
 }
+
 .cardHeader {
     display: absolute;
     background-color: var(--darkColor);
@@ -88,7 +89,9 @@ h1 {
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 }
+
 
 pre {
     display: flex;
@@ -96,8 +99,11 @@ pre {
     background:linear-gradient(45deg, var(--themeColor), var(--darkColor));
     border-radius: var(--borderRadius);
     padding: 1.2rem 1rem;
+ ~
+
 }
 code {
+    flex-grow: 2;
     margin: 1rem;
     justify-content: flex-start;
     max-width: 80%;
