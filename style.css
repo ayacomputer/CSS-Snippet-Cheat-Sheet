@@ -43,6 +43,11 @@ h1 {
     margin: 3rem auto;
     color: var(--themeColor);
 }
+
+h2 {
+    font-size:2rem;
+}
+
 .caption {
     font-size: 2rem;
     color: var(--lightColor);
@@ -76,7 +81,6 @@ h1 {
     max-width: 80%;
     margin-left: 10%;
     margin-top:-2rem;
-    height: 4rem;
    text-align: center;
    border: solid 1px white; 
    font-size: 2.5rem;
@@ -106,6 +110,7 @@ pre {
 
 }
 code {
+    flex-shrink: 2;
     margin: 1rem;
     justify-content: flex-start;
     max-width: 80%;
@@ -122,11 +127,34 @@ monospace;
 
 
 @media screen and (max-width:768px) {
-    
+    h1 {
+        font-size: 4rem;
+    }
+    body {
+        font-size:1.5rem;
+    }
+
+    .cardHeader{
+        margin-top: -1.9rem;
+        font-size: 2.5rem;
+    }
+   .contents p {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .caption, code {
+        font-size: 1.5rem;
+    }
     .container{
         width: 49%;
         
        }
+
+    .contents {
+        height: 95%; 
+   
+    }
+    
          
 }
 
@@ -135,10 +163,26 @@ monospace;
 
 @media screen and (max-width:400px) {
     
+    body {
+        font-size: 1.4rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+
+
+    .cardHeader{
+        margin-top: -1.5rem;
+        font-size: 1.8rem;
+    }
+    .contents p {
+        font-size: 1.5rem;
+    }
+    .caption, code {
+        font-size: 1.5rem;
+    }
     .container {
         width: 100%;
-      
-        
        }
          
 }
