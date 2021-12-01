@@ -64,7 +64,10 @@ h1 {
 .contents p {
     margin-bottom: 2rem;
     text-align: center;
+    align-items: center;
     flex-grow: 1;
+    display: grid;
+    place-items: center;
 }
 
 .cardHeader {
@@ -89,17 +92,17 @@ h1 {
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
     height: 100%; 
+   
 }
 
 
 pre {
     flex-grow: 2;
-    min-height: 100%;
     background:linear-gradient(45deg, var(--themeColor), var(--darkColor));
     border-radius: var(--borderRadius);
     padding: 1.2rem 1rem;
+    margin-bottom: 2rem;
 
 }
 code {
